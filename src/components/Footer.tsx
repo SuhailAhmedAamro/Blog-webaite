@@ -18,7 +18,7 @@ const Footer = () => {
       <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
         {/* Left Section */}
         <div className="text-center md:text-left mb-4 md:mb-0">
-          <h2 className="text-xl font-bold">Sakeena Blog</h2>
+          <h2 className="text-xl font-bold">SUHAIL AHMED AAMRO</h2>
           <p className="text-sm mt-2">Your go-to place for the latest blog posts.</p>
         </div>
 
@@ -33,30 +33,12 @@ const Footer = () => {
             <FaFacebook size={24} />
           </a>
           <a
-            href="https://github.com/SakeenaMajeed"
+            href="https://github.com/Suhailahemdaamro"
             className="hover:text-gray-500"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub size={24} />
-          </a>
-          <a
-            href="https://www.instagram.com/_sakeena_majeed?igsh=cHZ4MHl3MTF4dDcz"
-            className="hover:text-pink-400"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaInstagram size={24} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/sakeena-majeed-86b58732a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-            className="hover:text-blue-600"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedin size={24} />
-          </a>
-        </div>
+           
 
         {/* Email Subscription Form */}
         <form onSubmit={handleNewsletterSignup} className="flex flex-col items-center md:items-start">
@@ -78,7 +60,7 @@ const Footer = () => {
 
         {/* Right Section: Footer Text */}
         <div className="text-center md:text-right mt-4 md:mt-0">
-          <p className="text-sm">© 2024 Sakeena Blog. All rights reserved.</p>
+          <p className="text-sm">© 2024 SUHAIL AHMED AAMRO Blog. All rights reserved.</p>
         </div>
       </div>
     </footer>
